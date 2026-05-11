@@ -169,11 +169,11 @@ export default function BRMonitorLanding() {
                       <div className="rounded-2xl border border-white/10 bg-[#243447] p-5">
                         <div className="text-sm text-white/60 mb-5 font-medium">Compliance status</div>
                         <div className="flex items-center justify-center">
-                          <div className="relative flex items-center justify-center w-40 h-40 rounded-full p-[14px]" style={{background: 'conic-gradient(#2dd4bf 4deg 296deg, #1e2d3d 296deg 300deg, #f59e0b 300deg 336deg, #1e2d3d 336deg 340deg, #ef4444 340deg 358deg, #1e2d3d 358deg 364deg)'}}>
-                            <div className="flex flex-col items-center justify-center w-full h-full rounded-full bg-[#1e2d3d]">
-                              <div className="text-4xl font-semibold text-white">92%</div>
-                              <div className="text-sm text-white/40 mt-1">On track</div>
-                            </div>
+                          <div className="relative flex items-center justify-center w-40 h-40 rounded-full p-[14px]" style={{background: 'conic-gradient(#2dd4bf 0deg 294deg, #1e2d3d 294deg 298deg, #f59e0b 298deg 332deg, #1e2d3d 332deg 336deg, #ef4444 336deg 354deg, #1e2d3d 354deg 360deg)', transform: 'rotate(-90deg)'}}>
+                           <div className="flex flex-col items-center justify-center w-full h-full rounded-full bg-[#1e2d3d]" style={{transform: 'rotate(90deg)'}}>
+                            <div className="text-4xl font-semibold text-white">92%</div>
+                            <div className="text-sm text-white/40 mt-1">On track</div>
+                          </div>
                           </div>
                         </div>
                         <div className="mt-6 space-y-3 text-sm">
