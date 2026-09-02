@@ -1,6 +1,18 @@
 // Newest entry first. Add updates here as the platform evolves.
 export const devLog = [
   {
+    date: '2026-09-02',
+    tag: 'Feature',
+    title: 'One-time passcode for consultant login',
+    body: 'External consultants now confirm a one-time passcode sent to their email when logging in, and periodically thereafter, adding an extra layer of protection to project access.',
+  },
+  {
+    date: '2026-09-02',
+    tag: 'Infra',
+    title: 'Platform-wide access control review',
+    body: 'Completed a full review of permissions across projects, documents and consultant workflows, tightening access controls throughout.',
+  },
+  {
     date: '2026-09-01',
     tag: 'Feature',
     title: 'Document markup and a full-page viewer',
