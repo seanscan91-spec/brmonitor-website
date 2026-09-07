@@ -1,6 +1,24 @@
 // Newest entry first. Add updates here as the platform evolves.
 export const devLog = [
   {
+    date: '2026-09-06',
+    tag: 'Infra',
+    title: 'Further platform security hardening',
+    body: 'Carried out another round of security checks across consultant logins and account permissions, closing several smaller gaps found during testing.',
+  },
+  {
+    date: '2026-09-06',
+    tag: 'Fix',
+    title: 'Invite and login email links fixed',
+    body: 'Invite and login emails now link correctly to brmonitor.app, and the .app domain is fully live.',
+  },
+  {
+    date: '2026-09-04',
+    tag: 'Feature',
+    title: 'Richer project reports',
+    body: 'Downloadable project reports now include a compliance status chart and a full regulation-by-regulation register, covering status, ownership and comment history for every item rather than just outstanding ones.',
+  },
+  {
     date: '2026-09-02',
     tag: 'Feature',
     title: 'One-time passcode for consultant login',
